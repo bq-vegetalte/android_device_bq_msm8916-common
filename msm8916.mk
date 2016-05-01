@@ -51,6 +51,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     Gello
 
+# Browser
+PRODUCT_PACKAGES += \
+    Gello
+
 # Camera
 PRODUCT_PACKAGES += \
     Snap
