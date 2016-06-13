@@ -62,7 +62,8 @@ FEATURE_QCRIL_UIM_SAP_SERVER_MODE := true
 BOARD_CHARGER_DISABLE_INIT_BLANK := true
 
 # CMHW
-BOARD_HARDWARE_CLASS += device/bq/msm8916-common/cmhw/src
+BOARD_USES_CYANOGEN_HARDWARE := true
+BOARD_HARDWARE_CLASS += hardware/cyanogen/cmhw
 
 # Add suffix variable to uniquely identify the board
 TARGET_BOARD_SUFFIX := _32
