@@ -32,8 +32,8 @@ typedef struct governor_settings {
     int hispeed_freq_off;
     int min_sample_time;
     int timer_rate;
-    char *above_hispeed_delay;
-    char *target_loads;
+    int above_hispeed_delay;
+    int target_loads;
     int target_loads_off;
     int scaling_max_freq;
     int scaling_min_freq;
