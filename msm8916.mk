@@ -87,13 +87,6 @@ PRODUCT_PACKAGES += \
     make_ext4fs \
     setup_fs
 
-# F2FS support
-PRODUCT_PACKAGES += \
-    fsck.f2fs \
-    mkfs.f2fs \
-    fibmap.f2fs
-
-
 # FM
 PRODUCT_PACKAGES += \
     FMRadio \
