@@ -18,7 +18,7 @@ LOCAL_PATH:= $(call my-dir)
 
 include $(CLEAR_VARS)
 LOCAL_C_INCLUDES := $(TARGET_POWERHAL_HEADER_PATH)
-ifeq ($(filter lux merlin,$(TARGET_DEVICE)),)
+ifeq ($(filter vegetalte,$(TARGET_DEVICE)),)
 LOCAL_SRC_FILES := power.c
 else
 LOCAL_SRC_FILES := power_8939.c
