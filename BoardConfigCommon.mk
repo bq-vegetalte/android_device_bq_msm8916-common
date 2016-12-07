@@ -14,6 +14,8 @@
 # limitations under the License.
 #
 
+DEVICE_PATH := device/bq/msm8916-common
+
 # Bootloader
 TARGET_BOOTLOADER_BOARD_NAME := msm8916
 TARGET_NO_BOOTLOADER := true
@@ -138,6 +140,9 @@ TARGET_RIL_VARIANT := caf
 # SELinux
 include device/qcom/sepolicy/sepolicy.mk
 BOARD_SEPOLICY_DIRS += device/bq/msm8916-common/sepolicy
+
+# Power
+TARGET_POWERHAL_HEADER_PATH := $(DEVICE_PATH)/power
 
 # Time services
 BOARD_USES_QC_TIME_SERVICES := true
